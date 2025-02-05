@@ -4,13 +4,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeToggleProvider } from "./context/themeToggle";
 
 const App = () => {
-  const [themeMode, setThemeMode] = useState("dark");
+  // const [themeMode, setThemeMode] = useState('dark');
 
+  const [themeMode, setThemeMode] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme ? savedTheme : "dark"
+  })
   const darkTheme = () => {
     setThemeMode("dark");
   };
   const lightTheme = () => {
     setThemeMode("light");
+
   };
   useEffect(() => {
     const currentTheme = localStorage.getItem("theme");

@@ -26,3 +26,49 @@ Teal (#008080) → Visited links or subtle text highlights.
 6. Icons & Graphics
 Teal & Neon Cyan Gradient → For logos or unique graphical elements.
 Soft White (#F5F5F5) → Icons for a minimal yet striking look.
+
+:root {
+    /* Backgrounds (Light) */
+    --bg-main: #E3E8EF; /* Light cool gray, matches dark mode contrast */
+    --bg-secondary: #C9D6E0; /* Slightly darker than main background for depth */
+
+    /* Text (Dark) */
+    --text-primary: #1F2937; /* Deep gray for readability */
+    --text-heading: #14747A; /* Matching the dark theme's border color for consistency */
+
+    /* Buttons & Links */
+    --btn-primary: #007F72; /* Same as dark mode button for uniformity */
+    --btn-primary-hover: #4FD1C5; /* Cyan tone for hover effect (same in dark mode) */
+
+    /* Borders & Highlights */
+    --border-custom: #14747A; /* Same as dark theme border */
+    --shadow-glow: 0 0 10px #30EAEA; /* Matches dark theme glow */
+
+    /* Links */
+    --link-active: #30EAEA; /* Same as dark theme */
+    --link-visited: #24B0A2; /* Same as dark theme */
+}
+
+
+
+:root {
+    /* Backgrounds (Light) */
+    --bg-main: #C3F4FF; /* Light turquoise, complements dark navy */
+    --bg-secondary: #A7E4E1; /* Soft aqua for depth, similar to dark theme contrast */
+
+    /* Text (Dark) */
+    --text-primary: #00424A; /* Deep teal, ensuring readability */
+    --text-heading: #007F72; /* Matching dark mode button color for uniformity */
+
+    /* Buttons & Links */
+    --btn-primary: #00796B; /* Deep teal, aligned with dark theme */
+    --btn-primary-hover: #30EAEA; /* Bright cyan for hover effect (same in dark mode) */
+
+    /* Borders & Highlights */
+    --border-custom: #14747A; /* Same as dark theme border */
+    --shadow-glow: 0 0 10px #30EAEA; /* Matches dark theme's cyan glow */
+
+    /* Links */
+    --link-active: #30EAEA; /* Same as dark theme */
+    --link-visited: #24B0A2; /* Same as dark theme */
+}

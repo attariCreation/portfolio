@@ -3,35 +3,35 @@
 
 .dark {
     /* Backgrounds (Dark) */
-    --bg-main: #0A2239;
+    --dark-bg-main: #0A2239;
     /* Dark navy */
-    --bg-secondary: #1C2E4A;
+    --dark-bg-secondary: #1C2E4A;
     /* Deep blue */
 
     /* Text (Light) */
-    --text-primary: #E5E7EB;
+    --dark-text-primary: #E5E7EB;
     /* Light gray */
-    --text-heading: #66E6E6;
+    --dark-text-heading: #66E6E6;
     /* Soft cyan */
 
     /* Buttons & Links */
-    --btn-primary: #007f72;
-    --btn-primary-hover: #4FD1C5;
+    --dark-btn-primary: #007f72;
+    --dark-btn-primary-hover: #4FD1C5;
 
     /* Borders & Highlights */
-    --border-custom: #14747A;
-    --shadow-glow: 0 0 10px #66E6E6;
+    --dark-border-custom: #14747A;
+    --dark-shadow-glow: 0 0 10px #66E6E6;
 
     /* Links */
-    --link-active: #30eaea;
-    --link-visited: #24b0a2;
+    --dark-link-active: #30eaea;
+    --dark-link-visited: #24b0a2;
 }
 
 :root {
     /* Backgrounds (Light) */
-    --bg-main: #F8FAFC;
+    --bg-main: #C3F4FF;
     /* Soft off-white */
-    --bg-secondary: #E3E8EF;
+    --bg-secondary: #A7E4E1;
     /* Light cool gray */
 
     /* Text (Dark) */
