@@ -1,0 +1,28 @@
+Inter – Highly readable, balanced, and widely used in modern UI/UX.
+Poppins – A geometric sans-serif with a sleek and professional look.
+Montserrat – Stylish and contemporary, great for headings.
+Lato – Smooth and slightly rounded, great for a soft minimalist feel.
+Open Sans – Very neutral and easy to read, perfect for content-heavy designs.
+Nunito – Slightly rounded edges, giving a friendly yet minimal look.
+Work Sans – A highly optimized font for clean and structured layouts.
+
+
+
+1. Background & Sections
+Deep Navy (#001F3F) → Main background for a dark, professional feel.
+Dark Gray (#2C2C2C) → Secondary background (e.g., sections, footers, or sidebars).
+2. Text & Typography
+Soft White (#F5F5F5) → Main body text for readability against dark backgrounds.
+Neon Cyan (#00FFFF) → Headings or key phrases to stand out.
+3. Buttons & Interactive Elements
+Teal (#008080) → Primary button color (e.g., call-to-action buttons).
+Neon Cyan (#00FFFF) → Hover effects, underlines, and active states.
+4. Borders, Dividers & Shadows
+Teal (#008080) → Thin borders around cards or sections.
+Neon Cyan (#00FFFF) → Subtle glow or shadow effects for a futuristic touch.
+5. Links & Highlights
+Neon Cyan (#00FFFF) → Active links and hover effects.
+Teal (#008080) → Visited links or subtle text highlights.
+6. Icons & Graphics
+Teal & Neon Cyan Gradient → For logos or unique graphical elements.
+Soft White (#F5F5F5) → Icons for a minimal yet striking look.

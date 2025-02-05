@@ -1,1 +1,60 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+    /* Backgrounds (Dark) */
+    --bg-main: #0A2239;
+    /* Dark navy */
+    --bg-secondary: #1C2E4A;
+    /* Deep blue */
+
+    /* Text (Light) */
+    --text-primary: #E5E7EB;
+    /* Light gray */
+    --text-heading: #66E6E6;
+    /* Soft cyan */
+
+    /* Buttons & Links */
+    --btn-primary: #007f72;
+    --btn-primary-hover: #4FD1C5;
+
+    /* Borders & Highlights */
+    --border-custom: #14747A;
+    --shadow-glow: 0 0 10px #66E6E6;
+
+    /* Links */
+    --link-active: #30eaea;
+    --link-visited: #24b0a2;
+}
+
+:root {
+    /* Backgrounds (Light) */
+    --bg-main: #F8FAFC;
+    /* Soft off-white */
+    --bg-secondary: #E3E8EF;
+    /* Light cool gray */
+
+    /* Text (Dark) */
+    --text-primary: #1F2937;
+    /* Deep gray for better contrast */
+    --text-heading: #00796B;
+    /* Deep teal for a strong heading color */
+
+    /* Buttons & Links */
+    --btn-primary: #00A693;
+    /* Vibrant turquoise */
+    --btn-primary-hover: #005F56;
+    /* Darker teal for hover effect */
+
+    /* Borders & Highlights */
+    --border-custom: #00796B;
+    /* Strong teal for contrast */
+    --shadow-glow: 0 0 10px #4FD1C5;
+    /* Softer, modern cyan glow */
+
+    /* Links */
+    --link-active: #00796B;
+    /* Deep teal for consistency */
+    --link-visited: #009688;
+    /* Slightly lighter than active links */
+}

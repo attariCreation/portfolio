@@ -1,0 +1,96 @@
+the files for my dark mode header 
+
+import React from "react";
+import { motion, useScroll } from "framer-motion";
+import { MdNightsStay } from "react-icons/md";
+const Header = () => {
+  const { scrollYProgress } = useScroll();
+
+  return (
+    <header className="w-full h-auto dark:bg-[var(--bg-secondary)] bg-[var(--bg-secondary)]">
+      {/* Scroll Progress Bar */}
+      <motion.hr
+        style={{ scaleX: scrollYProgress }}
+        className="border-none w-full h-[3px] bg-gradient-to-r dark:from-[#4FD1C5] dark:to-[#66E6E6] fixed top-0 left-0 origin-left from-[var(--bg-main)] to-[var(--bg-secondary)]"
+      />
+
+      <nav className="shadow-md dark:shadow-[#233752] shadow-[#5e789b]  flex justify-between items-center px-10 py-5">
+        {/* Logo */}
+        <div id="left">
+          <span
+            id="logo"
+            className="font-bold 
+            dark:text-[var(--text-heading)] text-var(--text-heading)] font-[poppins] text-2xl"
+          >
+            Abdul Hannan
+          </span>
+        </div>
+
+        {/* Navigation Links */}
+        <div
+          id="right"
+          className="flex justify-between items-center gap-10 font-[poppins]"
+        >
+          <a
+            href="#"
+            className="hover:overline overline-offset-3 transition-all duration-300 dark:text-[var(--link-active)] dark:hover:text-[var(--link-visited)] text-[var(--link-active)] hover:text-[var(--link-visited)]  "
+          >
+            Home
+          </a>
+          <a
+            href="#"
+            className="hover:overline overline-offset-3 transition-all duration-300 dark:text-[var(--link-active)] dark:hover:text-[var(--link-visited)] text-[var(--link-active)] hover:text-[var(--link-visited)]"
+          >
+            About
+          </a>
+          <a
+            href="#"
+            className="hover:overline overline-offset-3 transition-all duration-300 dark:text-[var(--link-active)] dark:hover:text-[var(--link-visited)] text-[var(--link-active)] hover:text-[var(--link-visited)]"
+          >
+            Services
+          </a>
+          <a
+            href="#"
+            className="hover:overline overline-offset-3 transition-all duration-300 dark:text-[var(--link-active)] dark:hover:text-[var(--link-visited)] text-[var(--link-active)] hover:text-[var(--link-visited)]"
+          >
+            Projects
+          </a>
+          <a
+            href="#"
+            className="hover:overline overline-offset-3 transition-all duration-300
+dark:text-[var(--link-active)]
+dark:hover:text-[var(--link-visited)] text-[var(--link-active)] hover:text-[var(--link-visited)]"
+          >
+            Contact
+          </a>
+          <button
+            id="mode"
+            className="font-bold text-2xl p-2
+
+             dark:bg-[var(--bg-main)]
+
+              dark:hover:text-[var(--bg-secondary)]
+               dark:hover:bg-[var(--text-heading)]/80 
+              transition-all duration-200
+               dark:text-[var(--text-heading)]
+
+                text-[dark:[var(--bg-main)]]
+                bg-[var(--bg-main)]
+                hover:bg-[var(--text-heading)]/80
+                hover:text-[var(--bg-secondary)]
+
+
+                 "
+          >
+            <MdNightsStay />
+          </button>
+        </div>
+      </nav>
+
+      {/* Bottom Border */}
+      {/* <hr className="border-none w-full h-[4px] bg-[var(--btn-primary)]"/> */}
+    </header>
+  );
+};
+
+export default Header;
