@@ -1,0 +1,10 @@
+font :
+
+Inter – Highly readable, balanced, and widely used in modern UI/UX.
+Poppins – A geometric sans-serif with a sleek and professional look.
+Montserrat – Stylish and contemporary, great for headings.
+Lato – Smooth and slightly rounded, great for a soft minimalist feel.
+
+work-sans
+
+

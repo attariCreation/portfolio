@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeToggleProvider } from "./context/themeToggle";
-
+import Header from './components/Header'
 const App = () => {
   // const [themeMode, setThemeMode] = useState('dark');
 
@@ -37,6 +37,7 @@ const App = () => {
     <BrowserRouter>
       <ThemeToggleProvider value={{ themeMode, darkTheme, lightTheme }}>
         <div className="w-full h-screen">
+          < Header />
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
