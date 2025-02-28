@@ -1,12 +1,13 @@
-import React from 'react';
-import Header from '../components/Header';
-import Main from '../components/Main';
+import React from "react";
+import Hero from "../components/Hero";
 const Home = () => {
   return (
-    <>
-    <Header />     
-    <Main />
-    </>
+    <div
+      className="dark:bg-[var(--dark-bg-main)] bg-[var(--bg-main)] dark:text-[var(--dark-text-primary)] 
+    text-[var(--text-primary)] h-full"
+    >
+      <Hero />
+    </div>
   );
 };
 
